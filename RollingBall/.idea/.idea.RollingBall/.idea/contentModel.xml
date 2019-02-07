@@ -22,6 +22,12 @@
         <e p="ShootBall" t="Include">
           <e p="ShootBall.cs" t="Include" />
         </e>
+        <e p="StateMechine" t="Include">
+          <e p="BaseState.cs" t="Include" />
+          <e p="FSM.cs" t="Include" />
+          <e p="StateMechineDemo.cs" t="Include" />
+          <e p="SwitchDemo.cs" t="Include" />
+        </e>
         <e p="StreamingAssets" t="Include">
           <e p="ShootBall.xml" t="Include" />
         </e>
