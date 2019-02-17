@@ -59,6 +59,7 @@
     <Compile Include="Assets\StateMechine\FSM.cs" />
     <Compile Include="Assets\StateMechine\StateMechineDemo.cs" />
     <Compile Include="Assets\StateMechine\SwitchDemo.cs" />
+    <Compile Include="Assets\UGUI\HPBar\HPBar.cs" />
     <Compile Include="Assets\Util\StringHelper.cs" />
     <Compile Include="Assets\XmlSaver\XmlGamePlay.cs" />
     <Compile Include="Assets\XmlSaver\XmlReader.cs" />

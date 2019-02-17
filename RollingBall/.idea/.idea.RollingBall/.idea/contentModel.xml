@@ -109,6 +109,11 @@
         <e p="StreamingAssets" t="Include">
           <e p="ShootBall.xml" t="Include" />
         </e>
+        <e p="UGUI" t="Include">
+          <e p="HPBar" t="Include">
+            <e p="HPBar.cs" t="Include" />
+          </e>
+        </e>
         <e p="Util" t="Include">
           <e p="StringHelper.cs" t="Include" />
         </e>
