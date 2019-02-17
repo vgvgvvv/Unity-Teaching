@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7659c4a-157e-46a9-85d9-2afd08fc31a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RollingBall/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollingBall/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollingBall/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollingBall/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollingBall/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollingBall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollingBall/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/MyAnimMgr.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/MyAnimMgr.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Script/MAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Script/MAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Script/TestAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Script/TestAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RollingBall.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RollingBall.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,18 +21,20 @@
     <session id="-2007283025">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="163" />
+          <entry key="cs" value="1024" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="163" />
+          <entry key="C#" value="1024" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,8 +54,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3360">
+            <state relative-caret-position="504">
               <caret line="210" column="23" selection-start-line="210" selection-start-column="16" selection-end-line="210" selection-end-column="23" />
+              <folding>
+                <marker date="1549806894644" expanded="true" signature="72:7194" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="247:7192" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="1094:1514" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="1573:2383" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="1582:1736" ph="/* convert the world relative moveInput vector into a local-relative ... */" />
+                <marker date="1549806894644" expanded="true" signature="2120:2172" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="2180:2220" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="2430:3108" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="2465:2620" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="2628:3104" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="2944:2994" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="3147:3581" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="3219:3577" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="3535:3572" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="3619:4877" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="3919:3986" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="3991:4247" ph="/* calculate which leg is behind, so as to leave that leg trailing in the jump animation ... */" />
+                <marker date="1549806894644" expanded="true" signature="4462:4517" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="4522:4693" ph="/* the anim speed multiplier allows the overall speed of walking/running to be tweaked in the inspector, ... */" />
+                <marker date="1549806894644" expanded="true" signature="4736:4792" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="4800:4873" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="4911:5188" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="5244:5622" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="5394:5618" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="5655:5918" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="5951:6369" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="5959:6098" ph="/* we implement this function to override the default root motion. ... */" />
+                <marker date="1549806894644" expanded="true" signature="6141:6365" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="6398:7189" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="6662:6841" ph="/* 0.1f is a small offset to start the ray from inside the character ... */" />
+                <marker date="1549806894644" expanded="true" signature="6957:7068" ph="{...}" />
+                <marker date="1549806894644" expanded="true" signature="7076:7185" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,8 +97,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/UGUI/HPBar/HPBar.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="400">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <marker date="1550402675472" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550402675472" expanded="true" signature="114:606" ph="{...}" />
+                <marker date="1550402675472" expanded="true" signature="246:253" ph="{...}" />
+                <marker date="1550402675472" expanded="true" signature="308:604" ph="{...}" />
+                <marker date="1550402675472" expanded="true" signature="331:350" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,12 +113,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Animation/Script/MAnimator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state>
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding>
-                <marker date="1550403651640" expanded="false" signature="6:78" ph="..." />
-                <marker date="1550403651640" expanded="true" signature="102:396" ph="{...}" />
-                <marker date="1550403651640" expanded="true" signature="225:393" ph="{...}" />
+                <marker date="1550406291416" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550406291416" expanded="true" signature="102:203" ph="{...}" />
+                <marker date="1550406291416" expanded="true" signature="141:151" ph="{...}" />
+                <marker date="1550406291416" expanded="true" signature="187:200" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -86,12 +128,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Animation/Script/TestAnimator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="120">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
-                <marker date="1550404017563" expanded="false" signature="6:78" ph="..." />
-                <marker date="1550404017563" expanded="true" signature="122:243" ph="{...}" />
-                <marker date="1550404017563" expanded="true" signature="172:179" ph="{...}" />
-                <marker date="1550404017563" expanded="true" signature="234:241" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="6:78" ph="..." />
+                <marker date="1550408881401" expanded="true" signature="166:602" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="285:600" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="373:594" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="627:644" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="687:3155" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="1011:1637" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="1691:1700" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="1755:3150" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="1790:2055" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="1841:1936" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="2093:2360" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="2144:2239" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="2399:2672" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="2450:2545" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="2711:2983" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="2762:2857" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="2993:3147" ph="{...}" />
+                <marker date="1550408881401" expanded="true" signature="3044:3140" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -193,6 +251,7 @@
         <option value="$PROJECT_DIR$/Assets/StateMechine/SwitchDemo.cs" />
         <option value="$PROJECT_DIR$/Assets/UGUI/HPBar/HPBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Animation/Script/MAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Animation/Script/TestAnimator.cs" />
       </list>
     </option>
   </component>
@@ -202,9 +261,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1920" />
-    <option name="height" value="1031" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,46 +278,22 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="RollingBall" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="RollingBall" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="RollingBall" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Animation" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="RollingBall" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Animation" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Resources" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="RollingBall" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Animation" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Script" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DragonBasic/src/client/XMainClient/XMainClient_vs2015.sln" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,12 +336,13 @@
       <workItem from="1549429707328" duration="9273000" />
       <workItem from="1549726543690" duration="431000" />
       <workItem from="1550158073649" duration="825000" />
-      <workItem from="1550403398939" duration="637000" />
+      <workItem from="1550403398939" duration="1410000" />
+      <workItem from="1550407066931" duration="1815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11166000" />
+    <option name="totallyTimeSpent" value="13754000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,15 +354,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26273242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26677445" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -334,17 +367,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3291815" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,13 +448,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3360">
-          <caret line="210" column="23" selection-start-line="210" selection-start-column="16" selection-end-line="210" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/StateMechine/SwitchDemo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -463,31 +492,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/UGUI/HPBar/HPBar.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="400">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <marker date="1550402675472" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550402675472" expanded="true" signature="114:606" ph="{...}" />
+            <marker date="1550402675472" expanded="true" signature="246:253" ph="{...}" />
+            <marker date="1550402675472" expanded="true" signature="308:604" ph="{...}" />
+            <marker date="1550402675472" expanded="true" signature="331:350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="210" column="23" selection-start-line="210" selection-start-column="16" selection-end-line="210" selection-end-column="23" />
+          <folding>
+            <marker date="1549806894644" expanded="true" signature="72:7194" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="247:7192" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="1094:1514" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="1573:2383" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="1582:1736" ph="/* convert the world relative moveInput vector into a local-relative ... */" />
+            <marker date="1549806894644" expanded="true" signature="2120:2172" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="2180:2220" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="2430:3108" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="2465:2620" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="2628:3104" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="2944:2994" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="3147:3581" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="3219:3577" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="3535:3572" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="3619:4877" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="3919:3986" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="3991:4247" ph="/* calculate which leg is behind, so as to leave that leg trailing in the jump animation ... */" />
+            <marker date="1549806894644" expanded="true" signature="4462:4517" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="4522:4693" ph="/* the anim speed multiplier allows the overall speed of walking/running to be tweaked in the inspector, ... */" />
+            <marker date="1549806894644" expanded="true" signature="4736:4792" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="4800:4873" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="4911:5188" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="5244:5622" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="5394:5618" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="5655:5918" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="5951:6369" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="5959:6098" ph="/* we implement this function to override the default root motion. ... */" />
+            <marker date="1549806894644" expanded="true" signature="6141:6365" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="6398:7189" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="6662:6841" ph="/* 0.1f is a small offset to start the ray from inside the character ... */" />
+            <marker date="1549806894644" expanded="true" signature="6957:7068" ph="{...}" />
+            <marker date="1549806894644" expanded="true" signature="7076:7185" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Animation/Script/MAnimator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state>
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
-            <marker date="1550403651640" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550403651640" expanded="true" signature="102:396" ph="{...}" />
-            <marker date="1550403651640" expanded="true" signature="225:393" ph="{...}" />
+            <marker date="1550406291416" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550406291416" expanded="true" signature="102:203" ph="{...}" />
+            <marker date="1550406291416" expanded="true" signature="141:151" ph="{...}" />
+            <marker date="1550406291416" expanded="true" signature="187:200" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Animation/Script/TestAnimator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="120">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
           <folding>
-            <marker date="1550404017563" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550404017563" expanded="true" signature="122:243" ph="{...}" />
-            <marker date="1550404017563" expanded="true" signature="172:179" ph="{...}" />
-            <marker date="1550404017563" expanded="true" signature="234:241" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="6:78" ph="..." />
+            <marker date="1550408881401" expanded="true" signature="166:602" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="285:600" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="373:594" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="627:644" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="687:3155" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="1011:1637" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="1691:1700" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="1755:3150" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="1790:2055" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="1841:1936" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="2093:2360" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="2144:2239" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="2399:2672" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="2450:2545" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="2711:2983" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="2762:2857" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="2993:3147" ph="{...}" />
+            <marker date="1550408881401" expanded="true" signature="3044:3140" ph="{...}" />
           </folding>
         </state>
       </provider>
