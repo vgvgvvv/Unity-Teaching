@@ -2,6 +2,9 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>4</LangVersion>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -14,7 +17,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
@@ -52,7 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\Editor\JetBrains\Unity3DRider.cs" />
     <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
@@ -205,7 +207,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.15f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.15f1/Editor\Data/Managed/nunit.framework.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.15f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Timeline">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.15f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
@@ -275,6 +277,9 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/35207/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
+      <HintPath>D:/Documents/Work/unity-teaching/RollingBall/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
