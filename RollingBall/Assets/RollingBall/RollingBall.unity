@@ -152,7 +152,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 54223086154030238, guid: 14791b570ff094d36bbef6c6b91ed2c3, type: 2}
+    - {fileID: 114520898507163884, guid: 14791b570ff094d36bbef6c6b91ed2c3, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 14791b570ff094d36bbef6c6b91ed2c3, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &947063963
@@ -262,7 +264,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.27
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -387,19 +389,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2131601011 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1643265367261022, guid: 14791b570ff094d36bbef6c6b91ed2c3,
-    type: 2}
-  m_PrefabInternal: {fileID: 697125508}
---- !u!114 &2131601012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2131601011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3db21c4acc2ed4f8a967efcf481b6cc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

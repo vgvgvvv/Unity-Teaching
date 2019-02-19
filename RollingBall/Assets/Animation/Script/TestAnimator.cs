@@ -26,6 +26,7 @@ public enum ActionState
 
 public class TestAnimator : MonoBehaviour
 {
+	
     private Animator _animator;
     private AnimatorOverrideController _overrideController;
     private AnimationClipOverrides _animationClipOverrides;
@@ -38,6 +39,7 @@ public class TestAnimator : MonoBehaviour
 
     void Awake()
     {
+	    transform.LookAt();
         _animator = GetComponent<Animator>();
         _overrideController = new AnimatorOverrideController();
         _animationClipOverrides = new AnimationClipOverrides();

@@ -13,4 +13,9 @@ public class XmlGamePlay : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	private void OnTriggerEnter(Collider other)
+	{
+		
+	}
 }

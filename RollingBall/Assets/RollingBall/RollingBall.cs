@@ -13,11 +13,6 @@ public class RollingBall : MonoBehaviour
 		_rigid = GetComponent<Rigidbody>();
 	}
 
-	// Use this for initialization
-	void Start ()
-	{
-		
-	}
 	
 	// Update is called once per frame
 	void Update () {
