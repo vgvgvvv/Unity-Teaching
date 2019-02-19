@@ -57,7 +57,6 @@
     <Compile Include="Assets\Animation\Script\ChangeAnimator.cs" />
     <Compile Include="Assets\Animation\Script\MAnimator.cs" />
     <Compile Include="Assets\Animation\Script\TestAnimator.cs" />
-    <Compile Include="Assets\Math\NewBehaviourScript.cs" />
     <Compile Include="Assets\RollingBall\RollingBall.cs" />
     <Compile Include="Assets\RollingBall\RollingBallByTransform.cs" />
     <Compile Include="Assets\RollingBallWithCamera\RollingBallWithCamera.cs" />
